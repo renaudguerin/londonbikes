@@ -8,8 +8,8 @@ Details of a specific bike point can also be retrieved.
 Installing dependencies
 =======================
 
-pip install pipenv
-pipenv install
+	pip install pipenv
+	pipenv install
 
 Required environment variables
 ==============================
@@ -18,6 +18,7 @@ Please set TFL_APP_ID and TFL_APP_KEY to an app ID and key obtained from https:/
 
 Usage
 =====
-londonbikes search <search_string>
-londonbikes search <latitude> <longitude> <radius_in_metres>
-londonbikes id <bike_point_id>
+
+	londonbikes search <search_string>
+	londonbikes search <latitude> <longitude> <radius_in_metres>
+	londonbikes id <bike_point_id>
